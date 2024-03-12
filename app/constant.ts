@@ -103,7 +103,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "gpt-35-turbo";
 export const GEMINI_SUMMARIZE_MODEL = "gemini-pro";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
@@ -209,7 +209,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo",
+    name: "gpt-35-turbo",
     available: true,
     provider: {
       id: "openai",
@@ -218,7 +218,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-0125",
+    name: "gpt-35-turbo-0125",
     available: true,
     provider: {
       id: "openai",
@@ -227,7 +227,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-0301",
+    name: "gpt-35-turbo-0301",
     available: true,
     provider: {
       id: "openai",
@@ -236,7 +236,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-0613",
+    name: "gpt-35-turbo-0613",
     available: true,
     provider: {
       id: "openai",
@@ -245,7 +245,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-1106",
+    name: "gpt-35-turbo-1106",
     available: true,
     provider: {
       id: "openai",
@@ -254,7 +254,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-16k",
+    name: "gpt-35-turbo-16k",
     available: true,
     provider: {
       id: "openai",
@@ -263,7 +263,7 @@ export const DEFAULT_MODELS = [
     },
   },
   {
-    name: "gpt-3.5-turbo-16k-0613",
+    name: "gpt-35-turbo-16k-0613",
     available: true,
     provider: {
       id: "openai",
